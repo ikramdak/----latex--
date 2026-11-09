@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1794223381.84151 "build/main.xdv" "build/main.pdf" "build/main" 1794223385.42254 0
-  "build/main.xdv" 1794223381.73543 488368 eb4aa561c1afe9c8fc4fac8d685c57a1 "xelatex"
+["xdvipdfmx"] 1794224052.45839 "build/main.xdv" "build/main.pdf" "build/main" 1794224056.10516 0
+  "build/main.xdv" 1794224052.34378 488384 baecd8a2ce4889e565d204f37251c8c3 "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1794223378.04245 "/Users/yikelanmutila/Desktop/李斌大作业/李斌作业latex模版/main.tex" "build/main.xdv" "main" 1794223385.42 0
-  "/Users/yikelanmutila/Desktop/李斌大作业/李斌作业latex模版/main.tex" 1794210666.18016 2873 234af699ac04ff4da6f1c3b53faddea8 ""
+["xelatex"] 1794224048.70848 "/Users/yikelanmutila/Desktop/李斌大作业/李斌作业latex模版/main.tex" "build/main.xdv" "main" 1794224056.10258 0
+  "/Users/yikelanmutila/Desktop/李斌大作业/李斌作业latex模版/main.tex" 1794224048.55433 2877 d2cfc4646465bdd2c902245b1b3ef792 ""
   "/Users/yikelanmutila/Library/texmf/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex" 1452211337 22701 5fab7b8ebb90b053dc067d1bd37e43c2 ""
   "/Users/yikelanmutila/Library/texmf/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex" 1755807260 3064 7406f3330a999363276dc290a7d7921f ""
   "/Users/yikelanmutila/Library/texmf/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex" 1620507943 2931 5d52092da9e839accd7c9026062fe5c3 ""
@@ -261,8 +261,8 @@
   "/usr/local/texlive/2026basic/texmf-var/web2c/xetex/xelatex.fmt" 1793888191 5411335 09d64eb5e35c26d9505fc745ad16c7ad ""
   "/usr/local/texlive/2026basic/texmf.cnf" 1772405582 628 bbc09d6d38872d53c11bb48dc9b14e88 ""
   "WHUExperiment.cls" 1794196751.14054 13951 6843f1791ae547571580407a1ba028d4 ""
-  "build/main.aux" 1794223381.73386 17276 2400826e66fff7540977e1ea4dd83858 "xelatex"
-  "build/main.out" 1794223381.73516 8772 b28fd5fd5b8c73383dba99fdfae84df5 "xelatex"
+  "build/main.aux" 1794224052.34215 17276 2400826e66fff7540977e1ea4dd83858 "xelatex"
+  "build/main.out" 1794224052.34345 8772 b28fd5fd5b8c73383dba99fdfae84df5 "xelatex"
   "figures/fig01.png" 1794196757.08545 125942 16db56821833ff849c2df201e68ce486 ""
   "figures/fig02.png" 1794196757.32991 222846 1703cfdb5ae2d5a40700c235217bb68d ""
   "figures/fig03.png" 1794196757.71971 366626 497b33d673ccb5cf109084092faf2db5 ""
@@ -279,7 +279,7 @@
   "figures/fig14.png" 1794196760.45981 125422 69c1b2e37143ae0791393e5a8256919c ""
   "figures/fig15.png" 1794196760.61588 120342 421a2ab95cc05203c01133756cfb83bb ""
   "figures/fig16.png" 1794196760.73146 83955 0183fab5dd102d59a58335eff3453d53 ""
-  "main.tex" 1794210666.18016 2873 234af699ac04ff4da6f1c3b53faddea8 ""
+  "main.tex" 1794224048.55433 2877 d2cfc4646465bdd2c902245b1b3ef792 ""
   "pages/abstract.tex" 1794197054.45172 1791 36498c793d8208e00cdf45332e019408 ""
   "pages/appendix.tex" 1794197054.45314 8390 55124d97c86ece68e36f481e3afd012e ""
   "pages/ch01.tex" 1794197054.45191 8060 69afd9b88fc00b9a0c1561fd1f631c6a ""
