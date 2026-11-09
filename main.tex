@@ -1,0 +1,64 @@
+% 编译方式：latexmk + XeLaTeX（.latexmkrc 负责把 texmf/ 加入宏包搜索路径）
+% !LW recipe = latexmk (xelatex)
+% 使用 TeX Live 自带中文字体，保持与模板相同的字体方案
+\PassOptionsToClass{fontset=fandol}{ctexbook}
+\documentclass[forprint,AutoFakeBold,AutoFakeSlant]{WHUExperiment}
+\usepackage{etoolbox}
+\usepackage{needspace}
+\usepackage{remreset}
+\makeatletter
+\patchcmd{\maketitle}{武汉大学计算机学院}{武汉大学经济与管理学院}{}{\errmessage{Cover school patch failed}}
+\patchcmd{\maketitle}{本科生课程实验报告}{研究生课程研究报告}{}{\errmessage{Cover title patch failed}}
+\patchcmd{\maketitle}{\raisebox{-3ex}[0pt]{\makebox[3.5cm][s]{指\hfill 导\hfill 教\hfill 师\hfill:\hfill}} & { {}\raisebox{-3ex}[0pt]{\the\Csupervisor}\hfill{}} & \\[3ex]}{}{}{\errmessage{Supervisor row patch failed}}
+% 保留原模板字号，修正加长后的学院名称居中及封面留白
+\patchcmd{\maketitle}{\makebox[9cm][s]{武汉大学经济与管理学院}}{\makebox[\textwidth][c]{武汉大学经济与管理学院}}{}{\errmessage{Cover alignment patch failed}}
+\patchcmd{\maketitle}{\vspace{2.0cm}}{\vspace{0.6cm}}{}{\errmessage{Cover spacing patch failed}}
+\patchcmd{\maketitle}{\vfill\vfill\vfill}{\vspace{1.2cm}}{}{\errmessage{Cover gap patch failed}}
+\patchcmd{\maketitle}{cp{3cm}c}{cp{6cm}c}{}{\errmessage{Cover information width patch failed}}
+\makeatother
+\hypersetup{hypertexnames=false,pdftitle={柏顿·墨基尔选股法的A股复现与延展},pdfauthor={伊克兰·穆提拉},pdfkeywords={墨基尔选股法；持续盈余成长；低市盈率；排名母体；波动率目标；策略复现}}
+
+\begin{document}
+\Ccoursename{金融数据分析}
+\title{柏顿·墨基尔选股法的A股复现与延展\\[0.5em]{\zihao{3}四条优化路径的收益、风险与机制比较}}
+\author{伊克兰·穆提拉}
+\CstudentNum{2026281050061}
+\Cmajor{金融}
+\date{二〇二六年十一月七日}
+\pdfbookmark[0]{封面}{title}
+\maketitle
+
+\mainmatter
+\pagestyle{plain}
+\baselineskip=22pt
+\raggedbottom
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\setlength{\abovedisplayskip}{8pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{8pt plus 2pt minus 2pt}
+\setlength{\abovedisplayshortskip}{4pt plus 2pt}
+\setlength{\belowdisplayshortskip}{6pt plus 2pt minus 2pt}
+
+% 全文表格、图按出现顺序连续编号，不随章重置
+\makeatletter
+\@removefromreset{figure}{chapter}
+\@removefromreset{table}{chapter}
+\makeatother
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+
+\input{pages/abstract}
+\input{pages/ch01}
+\input{pages/ch02}
+\input{pages/ch03}
+\input{pages/ch04}
+\input{pages/ch05}
+\input{pages/ch06}
+\input{pages/ch07}
+\input{pages/ch08}
+\input{pages/ch09}
+\input{pages/ch10}
+\input{pages/references}
+\input{pages/appendix}
+\end{document}

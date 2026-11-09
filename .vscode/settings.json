@@ -1,0 +1,5 @@
+{
+    // 统一输出到 build/，与 README 和命令行编译保持一致
+    "latex-workshop.latex.outDir": "%DIR%/build",
+    "latex-workshop.latex.recipe.default": "latexmk (xelatex)"
+}

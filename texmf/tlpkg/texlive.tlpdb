@@ -1,0 +1,337 @@
+name 00texlive.installation
+category TLCore
+depend opt_location:https://mirror.ctan.org/systems/texlive/tlnet
+depend setting_available_architectures:
+depend setting_usertree:1
+
+name accsupp
+category Package
+revision 79461
+shortdesc Better accessibility support for PDF files
+longdesc Since PDF 1.5 portions of a page can be marked for better
+longdesc accessibility support. For example, replacement texts or
+longdesc expansions of abbreviations can be provided. This package
+longdesc starts with providing a minimal low-level interface for
+longdesc programmers; its status is experimental. Support necessary for
+longdesc the package was added to the "distill" capabilities of
+longdesc Ghostscript with version 9.15 of Ghostscript; the dvips is only
+longdesc available with that version (or later).
+containersize 3300
+containerchecksum 22e76c71cc9918221c847a97d35a6922ff714fc717e381311606f43ef617f1eec07e7436e953e5ffd50729e9bb9842951bb932365a0b1b0c9df5c479cac16799
+doccontainersize 327136
+doccontainerchecksum cd58e142310346c3bdcbb8129c4bc5c892c5fbe905dab6ff11cf3636dffa11f99b115cb9beb25b306dbc56048cf55e4123f7628def465624c5f253f5f7ec0530
+srccontainersize 8188
+srccontainerchecksum 6cddbe602125ae1079ec38f4eb323ea5361522116d6e0de1e905940e08c723cf085e74e040eaa36683e505f52aec77f4aac63235b8c1b179119755054b17c779
+runfiles size=6
+ tex/latex/accsupp/accsupp-dvipdfm.def
+ tex/latex/accsupp/accsupp-dvips.def
+ tex/latex/accsupp/accsupp-luatex.def
+ tex/latex/accsupp/accsupp-pdftex.def
+ tex/latex/accsupp/accsupp.sty
+catalogue-contact-bugs https://github.com/LaTeX-Package-Repositories/accsupp/issues
+catalogue-contact-repository https://github.com/LaTeX-Package-Repositories/accsupp
+catalogue-ctan /macros/latex/contrib/accsupp
+catalogue-license lppl1.3c
+catalogue-topics accessible pdf-feat
+catalogue-version 0.6
+
+name algorithm2e
+category Package
+revision 77682
+shortdesc Floating algorithm environment with algorithmic keywords
+longdesc Algorithm2e is an environment for writing algorithms. An
+longdesc algorithm becomes a floating object (like figure, table, etc.).
+longdesc The package provides macros that allow you to create different
+longdesc keywords, and a set of predefined key words is provided; you
+longdesc can change the typography of the keywords. The package allows
+longdesc vertical lines delimiting a block of instructions in an
+longdesc algorithm, and defines different sorts of algorithms such as
+longdesc Procedure or Function; the name of these functions may be
+longdesc reused in the text or in other algorithms.
+containersize 32872
+containerchecksum f627d29db1607f59eac3885af7071de6365a7e5c90dd85d685cd97b2a9d5824fabeaafefde3cd6570a7f35afc560bf8a4238267b20a45414f2c75afc199f4d28
+doccontainersize 559228
+doccontainerchecksum a835f027a72fee2375cb12d248f4b091baee5a21c5f41ed97c32f83a1488814a7393e4fc6514402aeaf81aab7af7bf57741450d637885ff92184a30660e44abd
+runfiles size=41
+ tex/latex/algorithm2e/algorithm2e.sty
+catalogue-ctan /macros/latex/contrib/algorithm2e
+catalogue-license lppl
+catalogue-topics pseudocode tagged-pdf-incompatible
+catalogue-version 5.2
+
+name bigfoot
+category Package
+revision 77682
+shortdesc Footnotes for critical editions
+longdesc The package aims to provide a 'one-stop' solution to
+longdesc requirements for footnotes. It offers: Multiple footnote
+longdesc apparatus superior to that of manyfoot Footnotes can be
+longdesc formatted in separate paragraphs, or be run into a single
+longdesc paragraph (this choice may be selected per footnote series);
+longdesc Things you might have expected (such as \verb-like material in
+longdesc footnotes, and colour selections over page breaks) now work.
+longdesc Note that the majority of the bigfoot package's interface is
+longdesc identical to that of manyfoot; users should seek information
+longdesc from that package's documentation. The bigfoot bundle also
+longdesc provides the perpage and suffix packages.
+containersize 11368
+containerchecksum bbd39341a6f1de3a75a8f29884043b1b43b0ed76a74854abcbdd4f91170067cdc2466803e46d140b4460e6526ba4879a2fc97a7d4e1919b29b97886a9e6b5da7
+doccontainersize 736348
+doccontainerchecksum 04a329ab42c010d2e6c2fc2b55992577d2d20c9e0f902f4fc32dbbe5be18f9c693b979aaa501284f77970c975d7022b23349675d89ec9114f2471d8bb6afe334
+srccontainersize 43760
+srccontainerchecksum c0973f2357a6ffa202bfcd0be5c0a77bcc514eae0f104d247e589958051a15f9862965d28edb54bbbe4ceb0dc7715d0faa8c4376cc2c27153695691df101ce65
+runfiles size=14
+ tex/latex/bigfoot/bigfoot.sty
+ tex/latex/bigfoot/perpage.sty
+ tex/latex/bigfoot/suffix.sty
+catalogue-ctan /macros/latex/contrib/bigfoot
+catalogue-license gpl2
+catalogue-topics footnote tagged-pdf-incompatible
+catalogue-version 2.1
+
+name diagbox
+category Package
+revision 77682
+shortdesc Table heads with diagonal lines
+longdesc The package's principal command, \diagbox, takes two arguments
+longdesc (texts for the slash-separated parts of the box), and an
+longdesc optional argument with which the direction the slash will go,
+longdesc the box dimensions, etc., may be controlled. The package also
+longdesc provides \slashbox and \backslashbox commands for compatibility
+longdesc with the slashbox package, which it supersedes. diagbox depends
+longdesc on e-TeX as well as the packages array, calc, fp, keyval, and
+longdesc pict2e.
+containersize 3676
+containerchecksum aabb45b5362b6d307939d56788f3f6ae2a7200cfe8d0f02bfc5b448f63e1f3a7d3f4630608a4fc272dc90a92fbd569389b7adf45bd02650ae82802e9c7136ec3
+doccontainersize 238500
+doccontainerchecksum 26fcb49682d17b5c9757e22184f8ec5a1bf4343beaf8d5c5898b595c12eccf4bab3fab20b5c6ac43bb7be569b21c2fefb5977132fe264e17cf84fd424a871122
+srccontainersize 12324
+srccontainerchecksum e80c007608ffd051a751c17d66280cfdf7a1bde639c832f05a97e1c10c06293ad04e90dc550d987a92376ce715da1a60fb834142397dc151c328a9cbe947bbe0
+runfiles size=4
+ tex/latex/diagbox/diagbox.sty
+catalogue-contact-repository https://github.com/leo-liu/tex-pkg
+catalogue-ctan /macros/latex/contrib/diagbox
+catalogue-license lppl1.3
+catalogue-topics table tagged-pdf-incompatible
+catalogue-version 2.4
+
+name endfloat
+category Package
+revision 77682
+shortdesc Move floats to the end, leaving markers where they belong
+longdesc Place all floats on pages by themselves at the end of the
+longdesc document, optionally leaving markers like "[Figure 3 about
+longdesc here]" in the text near to where the figure (or table) would
+longdesc normally have occurred. Float types figure and table are
+longdesc recognised by the package, unmodified. Since several packages
+longdesc define other types of float, it is possible to register these
+longdesc float types with endfloat.
+containersize 5092
+containerchecksum f266fd3a87b58e2e8f978ab766e15d58f5fd6c31fd5ae51f8839964c43d1862fbcc01754997771e019499f542bbd19864dcc35f7041e4b085e01bd7a316b13b6
+doccontainersize 181292
+doccontainerchecksum b2e79506cfbf02be8b1c851851de366174f4d2904d284946ecbe80081821e4385823b20f9e75570c90e7ff0468ff2ed1e3b301935bbb1bcf4b3d5222ddada02a
+srccontainersize 29220
+srccontainerchecksum 83775f72bead776ac16fb03a0784d14ff26e5917083aa1c5366fed5996003f7d476c4a0a1626c79e1fba4548fa93a797189f80af6540d1abd286710db28abb57
+runfiles size=5
+ tex/latex/endfloat/endfloat.sty
+catalogue-ctan /macros/latex/contrib/endfloat
+catalogue-license gpl
+catalogue-topics float tagged-pdf
+catalogue-version 2.7
+
+name ifoddpage
+category Package
+revision 77682
+shortdesc Determine if the current page is odd or even
+longdesc The package provides an \ifoddpage conditional to determine if
+longdesc the current page is odd or even. The macro \checkoddpage must
+longdesc be used direct before to check the page number using a label.
+longdesc Two compiler runs are therefore required to achieve correct
+longdesc results. In addition, the conditional \ifoddpageoronside is
+longdesc provided which is also true in oneside mode where all pages use
+longdesc the odd page layout.
+containersize 1448
+containerchecksum 54332714f5eea3395d0c7ccedd213664494c96a48f9a3d56bf31e27d798cbb1e06eba1faafff262884fcbd0a7c9f7c8aa4bf8051490f542d39d190ac681c6bd6
+doccontainersize 144252
+doccontainerchecksum d1cabc08644fb9fe14521716231045742aca949ec28c8b94297aee24680afbad6a94d9c989b957f9404fd32b77b2523c80c8d4986b6c13f3e8b8199b9a0be38e
+srccontainersize 4600
+srccontainerchecksum b8646db38194bcc3f9be9e779487baa371a3558fc8a62e212c70bc31d10b8185e945146e0490380ae1939c98ca414380975ccb5af8b748b17ee0952e151af516
+runfiles size=1
+ tex/latex/ifoddpage/ifoddpage.sty
+catalogue-contact-bugs https://github.com/MartinScharrer/ifoddpage/issues
+catalogue-contact-home https://github.com/MartinScharrer/ifoddpage
+catalogue-contact-repository https://github.com/MartinScharrer/ifoddpage.git
+catalogue-ctan /macros/latex/contrib/ifoddpage
+catalogue-license lppl1.3
+catalogue-topics typesetting macro-supp tagged-pdf
+catalogue-version 1.2
+
+name ltablex
+category Package
+revision 77682
+shortdesc Table package extensions
+longdesc Modifies the tabularx environment to combine the features of
+longdesc the tabularx package (auto-sized columns in a fixed width
+longdesc table) with those of the longtable package (multi-page tables).
+containersize 2488
+containerchecksum dbae4931548aec6908c311affe2e6b1986ad5339531fa8f0dffc7a0f0235d47c04ba1196bab96f445ea10d8e9b95ca50c3714094b3946da37e829bfcbc8dbaa5
+doccontainersize 233152
+doccontainerchecksum f6e0815a41043f0de1c2ac698062fd7a14bb015cca3cbf419389f450b73f08e366902da4a22fd873518f43e252bab4f89abc4ba70cad10a95e294027b56fa294
+runfiles size=2
+ tex/latex/ltablex/ltablex.sty
+catalogue-also xltabular
+catalogue-ctan /macros/latex/contrib/ltablex
+catalogue-license lppl
+catalogue-topics table table-long tagged-pdf-incompatible
+catalogue-version 1.1
+
+name makecell
+category Package
+revision 78101
+shortdesc Tabular column heads and multilined cells
+longdesc This package supports common layouts for tabular column heads
+longdesc in whole documents, based on one-column tabular environment. In
+longdesc addition, it can create multi-lined tabular cells. The Package
+longdesc also offers: a macro which changes the vertical space around
+longdesc all the cells in a tabular environment (similar to the function
+longdesc of the tabls package, but using the facilities of the array)
+longdesc macros for multirow cells, which use the facilities of the
+longdesc multirow package; macros to number rows in tables, or to skip
+longdesc cells; diagonally divided cells; horizontal lines in tabular
+longdesc environments with defined thickness.
+containersize 4452
+containerchecksum 4b4a86d0d71d34838f76f35cae3ebdbbd7d1a9604193bd050878bb44b56389ab01a9a3d405592e8aa0b6ffeb39df476c4b50640733d6696cb5ab9d6ce59bedd0
+doccontainersize 690256
+doccontainerchecksum c26522642147eaa013dd70b4db11e9bd1d5138eb53e671d0bceb22a10eac693e806adcf294939e33c5428965f1661f3a1832a16441809d1563a2b9f62cd43188
+srccontainersize 14788
+srccontainerchecksum ece8634cfe65f58129a894f6304634952e785c040ca5bfd9adb6aadf40002410994f2833d8a34645cbf03fa73c615c378953e46955984e518252db80cccf0051
+runfiles size=4
+ tex/latex/makecell/makecell.sty
+catalogue-ctan /macros/latex/contrib/makecell
+catalogue-license lppl
+catalogue-topics table tagged-pdf-partially
+catalogue-version 0.1e
+
+name needspace
+category Package
+revision 77682
+shortdesc Insert pagebreak if not enough space
+longdesc Provides commands to disable pagebreaking within a given
+longdesc vertical space. If there is not enough space between the
+longdesc command and the bottom of the page, a new page will be started.
+containersize 956
+containerchecksum e77a8261444cde90394b4de0e53702f09420ea869c68b30c12f27db2f5ed2aaa1a9b5e8e0bd94bb1592b567d3176f5a37a5e60516c837433277f224e5510f0f6
+doccontainersize 183912
+doccontainerchecksum 6e3f4e74d401fecc36ca0be05b9d68faf54cc1b3590f1e54976f0d17717ec7885a9de4e1cd006d7019108d876909ceff62cae7bacaad940dbfc618d6405a08e6
+srccontainersize 2220
+srccontainerchecksum 28e1c19932f13d9b3e9d58d427f89adc1e941b5160b4812b14eeb5ade956392e80ca48c1e4c6f4b00dc18f3b190e30439a015ba998afd2058cdead1908f906a5
+runfiles size=1
+ tex/latex/needspace/needspace.sty
+catalogue-contact-repository https://github.com/LaTeX-Package-Repositories/herries-press
+catalogue-ctan /macros/latex/contrib/needspace
+catalogue-license lppl1.3c
+catalogue-topics layout tagged-pdf-incompatible
+catalogue-version 1.3e
+
+name pict2e
+category Package
+revision 77682
+shortdesc New implementation of picture commands
+longdesc This package was described in the 2nd edition of 'LaTeX: A
+longdesc Document Preparation System', but the LaTeX project team
+longdesc declined to produce the package. For a long time, LaTeX
+longdesc included a 'pict2e package' that merely produced an apologetic
+longdesc error message. The new package extends the existing LaTeX
+longdesc picture environment, using the familiar technique (cf. the
+longdesc graphics and color packages) of driver files (at present,
+longdesc drivers for dvips, pdfTeX, LuaTeX, XeTeX, VTeX, dvipdfm, and
+longdesc dvipdfmx are available). The package documentation has a fair
+longdesc number of examples of use, showing where things are improved by
+longdesc comparison with the LaTeX picture environment.
+containersize 7812
+containerchecksum 4774c70514d60da4f2e60ca43edf9d681932ad8cbe42f336d76a97b1eafe58d2a6c7a89c71a66891f23e20ab28ec2a8344693ae65a71d5d9460e206e5cd36df5
+doccontainersize 1109928
+doccontainerchecksum 538a333b0e00a45c31d1ee9a73dc0d6574e0396fb6481b96390e07be5144f4dddfe1db7c836e59ba064ed3a8e9aeec4007b15e998fa8430c0fe51e588e8bcdb1
+srccontainersize 33476
+srccontainerchecksum c344a46aa271dcb2efbbd2968b0be98ff9ed506b3a12c0ac78b31fa46c625240c6c7cf65c6639c46329dc207fe80cb543f876e1f5b158214b1ddfa6cf32ec397
+runfiles size=19
+ tex/latex/pict2e/p2e-dvipdfm.def
+ tex/latex/pict2e/p2e-dvipdfmx.def
+ tex/latex/pict2e/p2e-dvips.def
+ tex/latex/pict2e/p2e-luatex.def
+ tex/latex/pict2e/p2e-pctex32.def
+ tex/latex/pict2e/p2e-pctexps.def
+ tex/latex/pict2e/p2e-pdftex.def
+ tex/latex/pict2e/p2e-textures.def
+ tex/latex/pict2e/p2e-vtex.def
+ tex/latex/pict2e/p2e-xetex.def
+ tex/latex/pict2e/pict2e.cfg
+ tex/latex/pict2e/pict2e.sty
+catalogue-also curve2e xpicture
+catalogue-contact-bugs https://github.com/rolfn/pict2e/issues
+catalogue-contact-home https://github.com/rolfn/pict2e
+catalogue-ctan /macros/latex/contrib/pict2e
+catalogue-license lppl1.3
+catalogue-topics graphics graphics-in-tex tagged-pdf
+catalogue-version 0.4b
+
+name relsize
+category Package
+revision 78315
+shortdesc Set the font size relative to the current font size
+longdesc The basic command of the package is \relsize, whose argument is
+longdesc a number of \magsteps to change size; from this are defined
+longdesc commands \larger, \smaller, \textlarger, etc.
+containersize 5704
+containerchecksum a4dae7bbc3437a63161e5ba4b4aa07516077d7a168741740e029072d2b519a4f10f9734ab88e793ff233f411ea907493885faa94eb89e87104ab8fa282d2791e
+doccontainersize 309064
+doccontainerchecksum 721eee335c768b04e8e8ef5fd380ec58abcacc7fdbd90f12b608477a7910b4a7ce19f665104493644f0ed05bcc7e3e6ffec14aba7619401ba3f3ac3f0dc02bc0
+runfiles size=4
+ tex/latex/relsize/relsize.sty
+catalogue-ctan /macros/latex/contrib/relsize
+catalogue-license pd
+catalogue-topics font-sel macro-supp tagged-pdf-partially
+catalogue-version 4.1
+
+name tocbibind
+category Package
+revision 80563
+shortdesc Add bibliography/index/contents to Table of Contents
+longdesc Automatically adds the bibliography and/or the index and/or the
+longdesc contents, etc., to the Table of Contents listing.
+containersize 3240
+containerchecksum b274a5733a56201f8fb47d0c7db7a799d265f1935f82fa0814f83e6a898ed239262ebb47bd9c50b090a24b6e479801297ae94d44370bd07d94a4bc6110fcab2b
+doccontainersize 307124
+doccontainerchecksum 73ecd581a8f06a5aba2f0040cd90c7b1da505c78c890793477c800eacee371d9ffee6a95b1a477cf2c481510077ba7ed71ffdaf9541c643120de8104b259e504
+srccontainersize 13688
+srccontainerchecksum b86af5373abe30fb46a7f4b67d8d555770e21ef3e9c07cf1841c188a9947ae5162b9b686ab07c85f2e4bd39458e874e57dd6401f7f5a66348b417af4162dfb85
+runfiles size=3
+ tex/latex/tocbibind/tocbibind.sty
+catalogue-contact-repository https://github.com/LaTeX-Package-Repositories/herries-press
+catalogue-ctan /macros/latex/contrib/tocbibind
+catalogue-license lppl1.3c
+catalogue-topics tagged-pdf toc-etc
+catalogue-version 1.5m
+
+name xltabular
+category Package
+revision 77682
+shortdesc Longtable support with possible X-column specifier
+longdesc This package loads package ltablex, but keeps the current
+longdesc tabularx environment as is. The new environment xltabular is a
+longdesc combination of longtable and tabularx: Header/footer
+longdesc definitions, X-column specifier, and with possible pagebreaks.
+containersize 2140
+containerchecksum 5f9dff9fed6dc8eb229d0c12c3f9b3e3279805dd746f681cbfff30607b59940583c4c7a6261d242908b387afeff05e8614a9e427491970a4e8219a344454c705
+doccontainersize 98520
+doccontainerchecksum 6c9bfffb7574070ecd4e3295aa35acb255b03bda261203cf323fad438737902c59e7c6e25524714ce5eb8e67dbba196c7d16d095f3873aca81b644700b392b09
+runfiles size=1
+ tex/latex/xltabular/xltabular.sty
+catalogue-also longtable tabularx ltablex
+catalogue-contact-bugs https://github.com/rolfn/xltabular/issues
+catalogue-contact-home https://github.com/rolfn/xltabular
+catalogue-ctan /macros/latex/contrib/xltabular
+catalogue-license lppl1.3
+catalogue-topics table table-long tagged-pdf
+catalogue-version 2.0i
+

@@ -1,0 +1,25 @@
+name diagbox
+category Package
+revision 77682
+shortdesc Table heads with diagonal lines
+longdesc The package's principal command, \diagbox, takes two arguments
+longdesc (texts for the slash-separated parts of the box), and an
+longdesc optional argument with which the direction the slash will go,
+longdesc the box dimensions, etc., may be controlled. The package also
+longdesc provides \slashbox and \backslashbox commands for compatibility
+longdesc with the slashbox package, which it supersedes. diagbox depends
+longdesc on e-TeX as well as the packages array, calc, fp, keyval, and
+longdesc pict2e.
+containersize 3676
+containerchecksum aabb45b5362b6d307939d56788f3f6ae2a7200cfe8d0f02bfc5b448f63e1f3a7d3f4630608a4fc272dc90a92fbd569389b7adf45bd02650ae82802e9c7136ec3
+doccontainersize 238500
+doccontainerchecksum 26fcb49682d17b5c9757e22184f8ec5a1bf4343beaf8d5c5898b595c12eccf4bab3fab20b5c6ac43bb7be569b21c2fefb5977132fe264e17cf84fd424a871122
+srccontainersize 12324
+srccontainerchecksum e80c007608ffd051a751c17d66280cfdf7a1bde639c832f05a97e1c10c06293ad04e90dc550d987a92376ce715da1a60fb834142397dc151c328a9cbe947bbe0
+runfiles size=4
+ tex/latex/diagbox/diagbox.sty
+catalogue-contact-repository https://github.com/leo-liu/tex-pkg
+catalogue-ctan /macros/latex/contrib/diagbox
+catalogue-license lppl1.3
+catalogue-topics table tagged-pdf-incompatible
+catalogue-version 2.4

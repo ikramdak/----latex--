@@ -1,0 +1,19 @@
+name tocbibind
+category Package
+revision 80563
+shortdesc Add bibliography/index/contents to Table of Contents
+longdesc Automatically adds the bibliography and/or the index and/or the
+longdesc contents, etc., to the Table of Contents listing.
+containersize 3240
+containerchecksum b274a5733a56201f8fb47d0c7db7a799d265f1935f82fa0814f83e6a898ed239262ebb47bd9c50b090a24b6e479801297ae94d44370bd07d94a4bc6110fcab2b
+doccontainersize 307124
+doccontainerchecksum 73ecd581a8f06a5aba2f0040cd90c7b1da505c78c890793477c800eacee371d9ffee6a95b1a477cf2c481510077ba7ed71ffdaf9541c643120de8104b259e504
+srccontainersize 13688
+srccontainerchecksum b86af5373abe30fb46a7f4b67d8d555770e21ef3e9c07cf1841c188a9947ae5162b9b686ab07c85f2e4bd39458e874e57dd6401f7f5a66348b417af4162dfb85
+runfiles size=3
+ tex/latex/tocbibind/tocbibind.sty
+catalogue-contact-repository https://github.com/LaTeX-Package-Repositories/herries-press
+catalogue-ctan /macros/latex/contrib/tocbibind
+catalogue-license lppl1.3c
+catalogue-topics tagged-pdf toc-etc
+catalogue-version 1.5m
