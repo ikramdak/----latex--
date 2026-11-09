@@ -16,23 +16,12 @@
 
 中文字体使用 TeX Live 自带的 Fandol；`texmf/` 是模板缺少的补充宏包，移动项目时请保留整个目录。
 
-## 目录结构
+## 当前报告
 
-- `main.tex`：封面信息、文档设置、各章入口。
-- `pages/abstract.tex`：摘要与关键词。
-- `pages/ch01.tex`—`ch10.tex`：正文十章。
-- `pages/references.tex`：参考文献。
-- `pages/appendix.tex`：附录 A—D。
-- `figures/fig01.png`—`fig16.png`：正文与附录图片。
-- `WHUExperiment.cls`：武汉大学实验报告模板类文件（封面已按经管学院课程报告调整）。
+- `main.tex` 包含封面、版式和报告入口。
+- `pages/two_routes.tex` 包含摘要、引言、数据、研究设计、实证结果、结论和参考文献。
+- `figures/two-routes.png` 为两条路线的共同窗口净值和回撤图。
+- `WHUExperiment.cls` 为武汉大学实验报告模板类文件，封面按经管学院课程报告调整。
+- `texmf/` 保存编译需要的补充宏包。
 
-## 修改位置
-
-1. 课程、题目、专业、学号、姓名、日期在 `main.tex` 开头。
-2. 正文直接修改 `pages/ch*.tex`；标题层级使用 `\chapter`、`\section`、`\subsection`。
-3. 图片放在 `figures/`，在正文中用 `\includegraphics[width=\linewidth]{figXX}` 引用。
-4. 表格使用 `tabularx` + `booktabs` 三线表；表题在表格上方，图题在图下方。
-
-## 当前正文来源
-
-`pages/` 中的正文、表格和图片已按 `../申万大师/研究报告.docx` 的内容转换为 LaTeX，便于直接修改。若要改为空白模板，保留 `main.tex`、`WHUExperiment.cls`、`texmf/` 和 `pages/abstract.tex`，清空或替换 `pages/ch*.tex` 即可。
+配套计算文档在 `../R/程序/墨基尔_两条路线复现与延展.Rmd`。此前四路径报告的章节和图表仍可在模板目录及 Git 历史中查阅。

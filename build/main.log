@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.11.5)  9 NOV 2026 19:45
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.11.5)  9 NOV 2026 22:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1764,280 +1764,57 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 9.03276pt on input line 29.
  [1
 
-] (./pages/abstract.tex
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 3.
+] (./pages/two_routes.tex
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 2.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <18.06749> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/bx/n' in size <18.06749> not available
-(Font)              Font shape `TU/FandolSong-Regular(0)/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.4324pt on input line 4.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.02315pt on input line 4.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.43059pt on input line 4.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.02185pt on input line 4.
-) (./pages/ch01.tex [1
-
-
-]
-1
+(Font)              Font shape `TU/FandolSong-Regular(0)/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.05249> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/bx/n' in size <14.05249> not available
-(Font)              Font shape `TU/FandolSong-Regular(0)/b/n' tried instead on input line 4.
-[2
+(Font)              Font shape `TU/FandolSong-Regular(0)/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.4324pt on input line 9.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.02315pt on input line 9.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.43059pt on input line 9.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.02185pt on input line 9.
+ [1
+
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12.045> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/bx/n' in size <12.045> not available
-(Font)              Font shape `TU/FandolSong-Regular(0)/b/n' tried instead on input line 21.
-
-Underfull \hbox (badness 3907) in paragraph at lines 64--64
-[]|\TU/FandolSong-Regular(0)/m/n/10.53937 实 际 统 计 区
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 64--64
-[]|\TU/FandolSong-Regular(0)/m/n/10.53937 最 大 回 撤 幅
- []
-
-[3] [4]) (./pages/ch02.tex [5]
-2
-
-Underfull \hbox (badness 4328) in paragraph at lines 23--23
-[]|\TU/FandolSong-Regular(0)/m/n/10.53937 冻 结 公 告 敏 感 性
- []
-
-[6
-
-] [7]) (./pages/ch03.tex [8]
-3
-File: figures/fig01.png Graphic file (type bmp)
-<figures/fig01.png>
-[9
-
-] [10] [11]) (./pages/ch04.tex [12]
-4
-File: figures/fig02.png Graphic file (type bmp)
-<figures/fig02.png>
-File: figures/fig03.png Graphic file (type bmp)
-<figures/fig03.png>
-[13
-
-] [14]
-File: figures/fig04.png Graphic file (type bmp)
-<figures/fig04.png>
-File: figures/fig05.png Graphic file (type bmp)
-<figures/fig05.png>
- [15] [16] [17] [18]
-File: figures/fig06.png Graphic file (type bmp)
-<figures/fig06.png>
-File: figures/fig07.png Graphic file (type bmp)
-<figures/fig07.png>
-) (./pages/ch05.tex [19] [20]
-5
-File: figures/fig08.png Graphic file (type bmp)
-<figures/fig08.png>
-File: figures/fig09.png Graphic file (type bmp)
-<figures/fig09.png>
-[21
-
-] [22]) (./pages/ch06.tex [23]
-6
-File: figures/fig10.png Graphic file (type bmp)
-<figures/fig10.png>
-File: figures/fig11.png Graphic file (type bmp)
-<figures/fig11.png>
-[24
-
-] [25]
-File: figures/fig12.png Graphic file (type bmp)
-<figures/fig12.png>
- [26]) (./pages/ch07.tex [27]
-7
-File: figures/fig13.png Graphic file (type bmp)
-<figures/fig13.png>
-[28
-
-]) (./pages/ch08.tex [29]
-8
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 38.86| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 26.17| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 38.17| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 24.39| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 44.63| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 26.74| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 41.28| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 27.52| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 27.96| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 16.25| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 36.22| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 24.17| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 18.62| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 13.39| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 38.73| 
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 52--52
- []|\TU/lmr/m/n/10.53937 25.82| 
- []
-
-[30
-
-]
-File: figures/fig14.png Graphic file (type bmp)
-<figures/fig14.png>
-
-Underfull \hbox (badness 1024) in paragraph at lines 87--87
- []|\TU/lmr/m/n/10.53937 3| 
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 87--87
- []|\TU/lmr/m/n/10.53937 4| 
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 87--87
- []|\TU/lmr/m/n/10.53937 4| 
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 87--87
- []|\TU/lmr/m/n/10.53937 6| 
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 87--87
- []|\TU/lmr/m/n/10.53937 4| 
- []
-
-File: figures/fig15.png Graphic file (type bmp)
-<figures/fig15.png>
-[31] [32] [33] [34]) (./pages/ch09.tex [35]
-9
-[36
-
-]) (./pages/ch10.tex [37]
-10
-
-Overfull \hbox (7.28632pt too wide) in paragraph at lines 12--13
-[]\TU/lmr/m/n/12.045 P2 \TU/FandolSong-Regular(0)/m/n/12.045 保 持 其 他 环 节 并 恢 复 全 截 面 两 榜 独 立 排 名，|  年 化 \TU/lmr/m/n/12.045 27.38%\TU/FandolSong-Regular(0)/m/n/12.045 、|  最 大 回 撤 $[]$\TU/lmr/m/n/12.045 64.15%\TU/FandolSong-Regular(0)/m/n/12.045 。|
- []
-
-[38
-
-]) (./pages/references.tex [39] [40
-
-]
-Underfull \hbox (badness 2111) in paragraph at lines 7--8
-[]\TU/lmr/m/n/12.045 FAMA E F, FRENCH K R. The cross-section of expected stock re-
- []
-
-) (./pages/appendix.tex [41
-
-]
-附录A
-[42
-
-]
-附录B
-File: figures/fig16.png Graphic file (type bmp)
-<figures/fig16.png>
-[43
-
-] [44]
-附录C
-[45
-
-]
-附录D
-) [46
-
-]
+(Font)              Font shape `TU/FandolSong-Regular(0)/b/n' tried instead on input line 25.
+ [2] [3]
+File: figures/two-routes.png Graphic file (type bmp)
+<figures/two-routes.png>
+ [4] [5])
 \tf@thm=\write5
 \openout5 = `main.thm'.
 
- [47] (build/main.aux)
+ [6] (build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026/08/21>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B28FD5FD5B8C73383DBA99FDFAE84DF5;8772.
+(rerunfilecheck)             Checksum: EE1EF7A781E55CDA9E967529ADB9E777;1677.
  ) 
 Here is how much of TeX's memory you used:
- 54765 strings out of 469709
- 1327755 string characters out of 5466023
- 1893773 words of memory out of 5000000
- 82506 multiletter control sequences out of 15000+600000
- 647404 words of font info for 149 fonts, out of 8000000 for 9000
+ 54033 strings out of 469709
+ 1295904 string characters out of 5466023
+ 1870912 words of memory out of 5000000
+ 81812 multiletter control sequences out of 15000+600000
+ 646427 words of font info for 142 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 107i,12n,126p,1521b,975s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,11n,126p,1521b,958s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main.xdv (48 pages, 488388 bytes).
+Output written on build/main.xdv (7 pages, 95800 bytes).
